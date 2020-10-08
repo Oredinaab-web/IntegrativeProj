@@ -15,7 +15,7 @@ session_start();
 // }
 
 
-if(isset($_POST['Next'])){
+if(isset($_POST['Submit'])){
     $Last_Name = $_POST['Last_Name'];
     $First_Name = $_POST['First_Name'];
     $Birthday = $_POST['Birthday'];
@@ -28,7 +28,8 @@ if(isset($_POST['Next'])){
 
 
         mysqli_query($mysqli, "INSERT INTO reg_stud (Last_Name,First_Name,Birthday,Age,Guard_Name,Email,Phone_Num,Username,Password) VALUES('$Last_Name','$First_Name','$Birthday','$Age','$Guard_Name','$Email','$Phone_Num','$Username','$Password')");
-        echo "<script>alert('You have succefully created you account :). Redirecting to Login Page...'); window.location.href ='http://127.0.0.1:5500/loadingpages/loadingReg.html'</script>";
+        // echo "window.location.href ='http://127.0.0.1:5500/loadingpages/loadingReg.html'</script>";
+        header('Location: http://127.0.0.1:5500/loadingpages/loadingReg.html');
         exit();
           
 }

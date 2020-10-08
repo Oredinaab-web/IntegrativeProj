@@ -161,7 +161,7 @@
                                 <div class="bg-inner"></div>
                             </div>
                         </div>
-                        <button type="submit" id="btn" class="btn block-cube block-cube-hover" name="Next">
+                        <button type="submit" id="btn" class="btn block-cube block-cube-hover" name="Submit">
                             <div class="bg-top">
                                 <div class="bg-inner"></div>
                             </div>
@@ -175,6 +175,7 @@
                                 SIGN UP
                             </div>
                         </button>
+                        <br>
             </form>
             <div class="SigninAcc">
                 Already have an account? <a href="http://localhost/IntegrativeProj/php/Login.php" class="Signtext">Sign
