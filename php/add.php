@@ -1,18 +1,8 @@
 <?php
 
-include_once("config.php");
-
-
 session_start();
 
-
-// if(isset($_POST['Next'])){
-//     header('Location: http://localhost/IntegrativeProj/html/RegUser.php');
-// }
-
-// if(isset($_POST['Back'])){
-//     header('Location: http://localhost/IntegrativeProj/html/Registration.php');
-// }
+include_once("config.php");
 
 
 if(isset($_POST['Submit'])){
@@ -28,7 +18,6 @@ if(isset($_POST['Submit'])){
 
 
         mysqli_query($mysqli, "INSERT INTO reg_stud (Last_Name,First_Name,Birthday,Age,Guard_Name,Email,Phone_Num,Username,Password) VALUES('$Last_Name','$First_Name','$Birthday','$Age','$Guard_Name','$Email','$Phone_Num','$Username','$Password')");
-        // echo "window.location.href ='http://127.0.0.1:5500/loadingpages/loadingReg.html'</script>";
         header('Location: http://127.0.0.1:5500/loadingpages/loadingReg.html');
         exit();
           

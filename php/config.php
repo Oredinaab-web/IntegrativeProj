@@ -1,7 +1,7 @@
 <?php
 
 $databaseHost = 'localhost';
-$databaseName = 'integrative';
+$databaseName = 'integratives';
 $databaseUsername = 'root';
 $databasePassword = '';
 

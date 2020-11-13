@@ -1,3 +1,7 @@
+<?php include('LoginServer.php')
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +20,7 @@
             frameborder="0" allowfullscreen></iframe>
 
         <div class="container-form">
-            <form action="LoginServer.php" name="form" method="post" class="form" autocomplete="off">
+            <form action="LoginServer.php" name="form" method="POST" class="form" autocomplete="off">
                 <div class="con1">
                     <h1>
                         "Login"

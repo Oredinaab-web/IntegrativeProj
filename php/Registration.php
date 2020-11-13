@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="control block-cube block-input">
-                            <input type="number" name="Phone_No" placeholder="Phone Number" required />
+                            <input type="Number" name="Phone_No" placeholder="Phone Number" required />
                             <div class="bg-top">
                                 <div class="bg-inner"></div>
                             </div>
